@@ -14,12 +14,24 @@ body {
     height: 100%;
 }
 
+.menu {
+    position: absolute;
+    top: 0;
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
 .command {
     position: absolute;
     border-radius: 50%;
     background-color: cornflowerblue;
-    height: 1rem;
-    width: 1rem;
+    height: 1em;
+    width: 1em;
 }
 
 .top-left {
